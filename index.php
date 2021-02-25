@@ -38,7 +38,7 @@ include './head.php';
                         <!-- SLIDE  -->
                         <li data-transition="fade" data-slotamount="2" data-masterspeed="500" data-thumb="homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                             <!-- MAIN IMAGE -->
-                            <img src="./images/teachers/1.jpg"  alt="slidebg1" data-lazyload="./images/teachers/1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="images/teachers/1.jpg"  alt="slidebg1" data-lazyload="images/teachers/1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
                             <div class="tp-caption customin fadeout tp-resizeme rs-parallaxlevel-10"
                                  data-x="center"
@@ -291,26 +291,8 @@ include './head.php';
                 <li> <a href="https://bilimland.kz/ru">Online mektep</a> <i class="icon-plus2"></i></li>
                 <li> <a href="https://www.gov.kz/memleket/entities/edu">МОН РК</a> <i class="icon-plus2"></i></li>
                 <li> <a href="books.php">Электронная книга</a> <i class="icon-plus2"></i></li>
-                <li> <a href="#">Онлайн тестирование</a> <i class="icon-plus2"></i></li>
+                <li> <a href="https://eduastana.epolice.kz">Онлайн тестирование</a> <i class="icon-plus2"></i></li>
                 <li> <a href="rewievs.php">Отзывы</a> <i class="icon-plus2"></i></li>
-                <!--                            <li>
-                                                <div class="popular-img">
-                                                    <a href="#"> <img src="https://static.365info.kz/uploads/2019/12/46450fbe72cf3d2e01dcfd64fa99e9dd.jpg" class="img-responsive" alt=""></a>
-                                                </div>
-                                                <div class="popular-desc">
-                                                    <h5> <a href="#">Online тестирование ЕНТ</a></h5>
-                                                    <span>02.22.2021</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="popular-img">
-                                                    <a href="#"> <img src="http://webvybory2012.ru/uploads/posts/2016-11/1480335999_1356778623.jpg" class="img-responsive" alt=""></a>
-                                                </div>
-                                                <div class="popular-desc">
-                                                    <h5> <a href="#">Электронная библиотека</a></h5>
-                                                    <span>02.22.2021</span>
-                                                </div>
-                                            </li>-->
             </ul>
         </div>
         <div class="side-widget space50">
