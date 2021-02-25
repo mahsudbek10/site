@@ -38,7 +38,7 @@ include './head.php';
                         <!-- SLIDE  -->
                         <li data-transition="fade" data-slotamount="2" data-masterspeed="500" data-thumb="homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                             <!-- MAIN IMAGE -->
-                            <img src="images/teachers/1.jpg"  alt="slidebg1" data-lazyload="images/teachers/1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="images/teachers/1.JPG"  alt="slidebg1" data-lazyload="images/teachers/1.JPG" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
                             <div class="tp-caption customin fadeout tp-resizeme rs-parallaxlevel-10"
                                  data-x="center"
@@ -117,7 +117,7 @@ include './head.php';
                         </li>
                         <li data-transition="fade" data-slotamount="2" data-masterspeed="500" data-thumb="homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                             <!-- MAIN IMAGE -->
-                            <img src="images/teachers/IMG_1746.jpg"  alt="slidebg1" data-lazyload="images/teachers/IMG_1746.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="images/teachers/IMG_1746.JPG"  alt="slidebg1" data-lazyload="images/teachers/IMG_1746.JPG" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
                             <div class="tp-caption customin fadeout tp-resizeme rs-parallaxlevel-10"
                                  data-x="center"
