@@ -148,7 +148,7 @@ include './head.php';
                                  style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;font-family: Raleway;
                                  font-size: 36px;
                                  font-weight: bold;
-                                 text-transform: uppercase;	color: #343434;">Спорт <span class="ss-color" style="color:#d6644a;">зал</span>
+                                 text-transform: uppercase; color: #343434;">Встреча с <span class="ss-color" style="color:#d6644a;">героями ВОВ</span>
                             </div>
                             <div class="tp-caption lft skewtoleftshort rs-parallaxlevel-9"
                                  data-x="center"
@@ -229,7 +229,7 @@ include './head.php';
                                  style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;font-family: Raleway;
                                  font-size: 36px;
                                  font-weight: bold;
-                                 text-transform: uppercase;	color: #343434;">Атовый <span class="ss-color" style="color:#d6644a;">зал</span>
+                                 text-transform: uppercase;	color: #343434;">Спортивная <span class="ss-color" style="color:#d6644a;">площадка</span>
                             </div>
                             <div class="tp-caption lft skewtoleftshort rs-parallaxlevel-9"
                                  data-x="center"
