@@ -710,7 +710,7 @@ include './head.php';
         </div>
     </div>
 </div>
-<iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=42.3144882,69.5975211&amp;q=%D0%A2%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2%D0%B0%2027%D0%B0+(silkway)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%15&amp;height=300&amp;hl=en&amp;q=%D0%A1%D0%A8%20%E2%84%9612%20%D0%B8%D0%BC.%D0%9C.%20%D0%93%D0%BE%D1%80%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+(12%20school)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">

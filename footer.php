@@ -11,8 +11,12 @@
         <div class="row">
             <div class="col-md-3 widget-footer col-sm-3">
                 <h5>№12 ОСШ им. М.Горького</h5>
-                <p>Лучшая школа в г.Шымкент</p>
+                <p>Лучшая школа в г.Шымкент далее краткое описание</p>
                 <div class="clearfix"></div>
+                
+            </div>
+            <div class="col-md-3 col-sm-3 widget-footer">
+                <h5>Социальные сети</h5>
                 <ul class="f-social">
                     <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
                     <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
@@ -21,17 +25,6 @@
                     <li><a href="https://www.pinterest.com" class="fa fa-pinterest"></a></li>
                     <li><a href="https://www.instagram.com" class="fa fa-instagram"></a></li>
                 </ul>
-            </div>
-            <div class="col-md-3 col-sm-3 widget-footer">
-                <h5>Социальные сети</h5>
-                <div class="tweet-info">
-                    <a href=""><i class="fa fa-instagram"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-vk"></i></a>
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-google"></i></a>
-                    <a href=""><i class="fa fa-youtube-play"></i></a>
-                </div>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
                 <h5>тэги</h5>
@@ -68,18 +61,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7 col-sm-7">
-                <ul class="flinks">
+<!--                <ul class="flinks">
                     <li><a href="./index.html">Site Map</a></li>
                     <li><a href="./index.html">Search Terms</a></li>
                     <li><a href="./index.html">Advanced Search</a></li>
                     <li><a href="./index.html">Orders and Returns</a></li>
                     <li><a href="./index.html">Customer Service</a></li>
-                </ul>
+                </ul>-->
                 <br>
-                <p>Copyright 2015 &middot; Designed & Developed by <a href="#">jThemes Studio.</a> All rights reserved</p>
+                <p>Copyright 2021 &middot; Designed & Developed by <a href="https://epolice.kz">Makhsud.</a> All rights reserved</p>
             </div>
             <div class="col-md-5 col-sm-5">
-                <img src="images/basic/payment.png" class="pull-right img-responsive payment" alt=""/>
+                <!--<img src="images/basic/payment.png" class="pull-right img-responsive payment" alt=""/>-->
             </div>
         </div>
     </div>
@@ -100,19 +93,19 @@
 <!-- ADDTHIS -->
 <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-557a95e76b3e51d9" async="async"></script>
 <script type="text/javascript">
-                                    // Call this function once the rest of the document is loaded
-                                    function loadAddThis() {
-                                        addthis.init()
-                                    }
+    // Call this function once the rest of the document is loaded
+    function loadAddThis() {
+        addthis.init()
+    }
 </script>
 
 <!-- ADDTHIS -->
 <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-557a95e76b3e51d9" async="async"></script>
 <script type="text/javascript">
-                                    // Call this function once the rest of the document is loaded
-                                    function loadAddThis() {
-                                        addthis.init()
-                                    }
+    // Call this function once the rest of the document is loaded
+    function loadAddThis() {
+        addthis.init()
+    }
 </script>
 
 <script src="js/bootstrap.min.js"></script>        

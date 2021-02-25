@@ -142,6 +142,8 @@
                                             <li><a href="./rewievs.php">История</a></li>
                                             <li><a href="./">Личный документ</a></li>
                                             <li><a href="./">Сертификат аккредитации</a></li>
+                                            <li><a href="./administration.php">Администрация</a></li>
+                                            <li><a href="./teachers.php">Учителя</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown" >
