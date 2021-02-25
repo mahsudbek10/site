@@ -10,9 +10,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 widget-footer col-sm-3">
-                <h5>About Store</h5>
-                <img src="images/basic/logo-lite.png" class="img-responsive space10" alt=""/>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus</p>
+                <h5>№12 ОСШ им. М.Горького</h5>
+                <p>Лучшая школа в г.Шымкент</p>
                 <div class="clearfix"></div>
                 <ul class="f-social">
                     <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
@@ -24,43 +23,40 @@
                 </ul>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
-                <h5>Latest Tweets</h5>
+                <h5>Социальные сети</h5>
                 <div class="tweet-info">
-                    <div id="twitterfeed"></div>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-vk"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-google"></i></a>
+                    <a href=""><i class="fa fa-youtube-play"></i></a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
-                <h5>Product tags</h5>
+                <h5>тэги</h5>
                 <ul class="widget-tags">
-                    <li><a href="./categories-grid.html">fashion</a></li>
-                    <li><a href="./categories-grid.html">sports</a></li>
-                    <li><a href="./categories-grid.html">business</a></li>
-                    <li><a href="./categories-grid.html">news</a></li>
-                    <li><a href="./categories-grid.html">night</a></li>
-                    <li><a href="./categories-grid.html">freedom</a></li>
-                    <li><a href="./categories-grid.html">design</a></li>
-                    <li><a href="./categories-grid.html">miracle</a></li>
-                    <li><a href="./categories-grid.html">gallery</a></li>
-                    <li><a href="./categories-grid.html">collection</a></li>
-                    <li><a href="./categories-grid.html">pen</a></li>
-                    <li><a href="./categories-grid.html">pants</a></li>
-                    <li><a href="./categories-grid.html">jeans</a></li>
-                    <li><a href="./categories-grid.html">photos</a></li>
-                    <li><a href="./categories-grid.html">oscar</a></li>
-                    <li><a href="./categories-grid.html">smile</a></li>
-                    <li><a href="./categories-grid.html">love</a></li>
-                    <li><a href="./categories-grid.html">sunshine</a></li>
-                    <li><a href="./categories-grid.html">luxury</a></li>
-                    <li><a href="./categories-grid.html">forever</a></li>
-                    <li><a href="./categories-grid.html">inlove</a></li>
+                    <li><a href="./categories-grid.html">ЕНТ</a></li>
+                    <li><a href="./categories-grid.html">Онлайн школа</a></li>
+                    <li><a href="./categories-grid.html">Электронная книга</a></li>
+                    <li><a href="./categories-grid.html">отзывы</a></li>
+                    <li><a href="./categories-grid.html">мон рк</a></li>
+                    <li><a href="./categories-grid.html">онлайн школа</a></li>
+                    <li><a href="./categories-grid.html">күнделік</a></li>
+                    <li><a href="./categories-grid.html">google</a></li>
+                    <li><a href="./categories-grid.html">yandex</a></li>
+                    <li><a href="./categories-grid.html">mail.ru</a></li>
+                    <li><a href="./categories-grid.html">youtube</a></li>
+                    <li><a href="./categories-grid.html">astana education center</a></li>
+                    <li><a href="./categories-grid.html">оnline тест для учителей</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
-                <h5>Newsletter</h5>
-                <p>Sign up for our newsletter and promotions</p>
+                <h5>НОВОСТНАЯ РАССЫЛКА</h5>
+                <p>Подпишитесь на нашу рассылку новостей</p>
                 <form class="newsletter">
-                    <input type="text" placeholder="Enter your email address here.">
-                    <button type="submit">Subscribe !</button>
+                    <input type="text" placeholder="Введите свой электронный адрес.">
+                    <button type="submit">Подписаться !</button>
                 </form>
             </div>
         </div>

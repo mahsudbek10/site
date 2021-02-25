@@ -38,7 +38,7 @@ include './head.php';
                         <!-- SLIDE  -->
                         <li data-transition="fade" data-slotamount="2" data-masterspeed="500" data-thumb="homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                             <!-- MAIN IMAGE -->
-                            <img src=""  alt="slidebg1" data-lazyload="https://school.shymkent.e-orda.kz/ru/images/preview?id=2191" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="./images/teachers/1.jpg"  alt="slidebg1" data-lazyload="./images/teachers/1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
                             <div class="tp-caption customin fadeout tp-resizeme rs-parallaxlevel-10"
                                  data-x="center"
@@ -117,7 +117,7 @@ include './head.php';
                         </li>
                         <li data-transition="fade" data-slotamount="2" data-masterspeed="500" data-thumb="homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                             <!-- MAIN IMAGE -->
-                            <img src="https://school.shymkent.e-orda.kz/ru/images/preview?id=2190"  alt="slidebg1" data-lazyload="https://school.shymkent.e-orda.kz/ru/images/preview?id=2190" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="images/teachers/IMG_1746.jpg"  alt="slidebg1" data-lazyload="images/teachers/IMG_1746.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
                             <div class="tp-caption customin fadeout tp-resizeme rs-parallaxlevel-10"
                                  data-x="center"
@@ -198,7 +198,7 @@ include './head.php';
                         </li>
                         <li data-transition="fade" data-slotamount="2" data-masterspeed="500" data-thumb="homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                             <!-- MAIN IMAGE -->
-                            <img src="https://school.shymkent.e-orda.kz/ru/images/preview?id=2196"  alt="slidebg1" data-lazyload="https://school.shymkent.e-orda.kz/ru/images/preview?id=2196" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="images/teachers/7.JPG"  alt="slidebg1" data-lazyload="images/teachers/7.JPG" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
                             <div class="tp-caption customin fadeout tp-resizeme rs-parallaxlevel-10"
                                  data-x="center"
@@ -289,10 +289,10 @@ include './head.php';
             <ul class="list-unstyled popular-post">
                 <li> <a href="https://kundelik.kz">Электрондық күнделік</a> <i class="icon-plus2"></i></li>
                 <li> <a href="https://bilimland.kz/ru">Online mektep</a> <i class="icon-plus2"></i></li>
-                <li> <a href="#">BilimLand</a> <i class="icon-plus2"></i></li>
-                <li> <a href="#">Сотрудничество</a> <i class="icon-plus2"></i></li>
-                <li> <a href="#">Блог lbректора</a> <i class="icon-plus2"></i></li>
-                <li> <a href="#">Портал студента</a> <i class="icon-plus2"></i></li>
+                <li> <a href="https://www.gov.kz/memleket/entities/edu">МОН РК</a> <i class="icon-plus2"></i></li>
+                <li> <a href="books.php">Электронная книга</a> <i class="icon-plus2"></i></li>
+                <li> <a href="#">Онлайн тестирование</a> <i class="icon-plus2"></i></li>
+                <li> <a href="rewievs.php">Отзывы</a> <i class="icon-plus2"></i></li>
                 <!--                            <li>
                                                 <div class="popular-img">
                                                     <a href="#"> <img src="https://static.365info.kz/uploads/2019/12/46450fbe72cf3d2e01dcfd64fa99e9dd.jpg" class="img-responsive" alt=""></a>

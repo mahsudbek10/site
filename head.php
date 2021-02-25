@@ -19,7 +19,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Smile | Responsive Bootstrap Ecommerce Template</title>
+        <title>12 М.Горький</title>
 
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,17 +66,17 @@
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
                                 <div class="tb_left pull-left">
-                                    <p>Welcome to our online store !</p>
+                                    <p>Добро пожаловать!</p>
                                 </div>
                                 <div class="tb_center pull-left">
                                     <ul>
-                                        <li><i class="fa fa-phone"></i> Hotline: <a href="#">(+800) 2307 2509 8988</a></li>
-                                        <li><i class="fa fa-envelope-o"></i> <a href="#">online support@smile.com</a></li>
+                                        <li><i class="fa fa-phone"></i> Тел: <a href="#">(8 7552) 571 907</a></li>
+                                        <li><i class="fa fa-envelope-o"></i> <a href="#">m.gorkogo-12@mail.ru</a></li>
                                     </ul>
                                 </div>
                                 <div class="tb_right pull-right">
                                     <ul>
-                                        <li>
+<!--                                        <li>
                                             <div class="tbr-info">
                                                 <span>Account <i class="fa fa-caret-down"></i></span>
                                                 <div class="tbr-inner">
@@ -86,14 +86,13 @@
                                                     <a href="login-page.html">Login</a>
                                                 </div>
                                             </div>
-                                        </li>
+                                        </li>-->
                                         <li>
                                             <div class="tbr-info">
-                                                <span><img src="images/basic/flag1.png" alt=""/>&nbsp;RUS <i class="fa fa-caret-down"></i></span>
+                                                <span><img src="images/basic/RU.png" alt=""/>&nbsp;RUS <i class="fa fa-caret-down"></i></span>
                                                 <div class="tbr-inner">
-                                                    <a href="#"><img src="images/basic/flag1.png" alt=""/>English</a>
-                                                    <a href="#"><img src="images/basic/flag2.png" alt=""/>French</a>
-                                                    <a href="#"><img src="images/basic/flag3.png" alt=""/>German</a>
+                                                    <a href="#"><img src="images/basic/flag1.png" alt=""/>EN</a>
+                                                    <a href="#"><img src="images/basic/KZ.png" alt=""/>KZ</a>
                                                 </div>
                                             </div>
                                         </li>
@@ -125,7 +124,7 @@
                             <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1" >
                                 <ul class="nav navbar-nav" >
                                     <li class="dropdown">
-                                        <a href="./index.html" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Главная</a>
+                                        <a href="./index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Главная</a>
 <!--                                        <ul class="dropdown-menu submenu" role="menu">
                                             <li><a href="./index.html">История университета</a>
                                             <li><a href="./index2.html">Миссия и стратегия</a>
@@ -138,15 +137,15 @@
                                         </ul>-->
                                     </li>
                                     <li class="dropdown">
-                                        <a href="./categories-grid.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Мектеп туралы</a>
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Мектеп туралы</a>
                                         <ul class="dropdown-menu submenu" role="menu">
-                                            <li><a href="./">История</a></li>
+                                            <li><a href="./rewievs.php">История</a></li>
                                             <li><a href="./">Личный документ</a></li>
                                             <li><a href="./">Сертификат аккредитации</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown" >
-                                        <a href="./categories-grid.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Оқулық</a>
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Оқулық</a>
                                         <ul class="dropdown-menu submenu" role="menu">
                                             <li><a href="./books.php">Электронная книга</a></li>
                                             <li><a href="https://eduastana.epolice.kz/test/index">Online тестирование</a></li>
