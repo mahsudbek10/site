@@ -162,6 +162,7 @@
                                         <ul class="dropdown-menu submenu" role="menu">
                                             <li><a href="./schedule1.php">Смена 1</a>
                                             <li><a href="./schedule2.php">Смена 2</a>
+                                            <li><a href="./schedule3.php">Начальная смена</a>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
@@ -175,7 +176,7 @@
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Структура</a>
                                         <ul class="dropdown-menu submenu" role="menu">                                         
-                                            <li><a href="contact-1.html">Ознакомиться</a></li>
+                                            <li><a href="structure.php">Ознакомиться</a></li>
                                         </ul>
                                     </li>
                                     <li style="margin-top: 18px;">
