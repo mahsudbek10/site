@@ -110,25 +110,25 @@ include './head.php';
                         <div class="post-media">
                             <div class="blog-slider">
                                 <div class="item">						
-                                    <img src="images/teachers/2.jpg" class="img-responsive" alt="">
+                                    <img src="images/teachers/2.JPG" class="img-responsive" alt="">
                                 </div>
                                 <div class="item">						
-                                    <img src="images/teachers/3.jpg" class="img-responsive" alt="">
+                                    <img src="images/teachers/3.JPG" class="img-responsive" alt="">
                                 </div>
                                 <div class="item">						
-                                    <img src="images/teachers/4.jpg" class="img-responsive" alt="">
+                                    <img src="images/teachers/4.JPG" class="img-responsive" alt="">
                                 </div>
                                 <div class="item">						
-                                    <img src="images/teachers/5.jpg" class="img-responsive" alt="">
+                                    <img src="images/teachers/5.JPG" class="img-responsive" alt="">
                                 </div>
                                 <div class="item">						
-                                    <img src="images/teachers/7.jpg" class="img-responsive" alt="">
+                                    <img src="images/teachers/7.JPG" class="img-responsive" alt="">
                                 </div>
                                 <div class="item">						
-                                    <img src="images/teachers/8.jpg" class="img-responsive" alt="">
+                                    <img src="images/teachers/8.JPG" class="img-responsive" alt="">
                                 </div>
                                 <div class="item">						
-                                    <img src="images/teachers/10.jpg" class="img-responsive" alt="">
+                                    <img src="images/teachers/10.JPG" class="img-responsive" alt="">
                                 </div>
                             </div>
                         </div>
