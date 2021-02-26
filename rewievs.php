@@ -133,27 +133,15 @@ include './head.php';
                             </div>
                         </div>
                         <div class="space30"></div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non laoreet dui. Morbi lacus massa, euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id sapien tempor molestie in nec massa.
-                        </p>
-                        <p>
-                            Fusce non ante sed lorem rutrum feugiat. Vestibulum pellentesque, purus ut&nbsp;dignissim consectetur, nulla erat ultrices purus, ut&nbsp;consequat sem elit non sem.
-                            Morbi lacus massa, euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id sapien tempor molestie in nec massa.
-                            Fusce non ante sed lorem rutrum feugiat.
-                        </p>
                         <blockquote class="style1">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet. Integer posuere erat a ante.</p>
-                            <small><b>Author Name</b></small>
+                            <p>Мектептің жаны – мұғалім. Мұғалім қандай болса, мектеп сондай болмақшы. Яғни, мұғалім білімді болса, ол мектептен балалар көбірек білім алып шықпақшы. Солай болған соң, ең әуелі мектепке керегі – білімді, педагогика, методикадан хабардар, жақсы оқыта білетін мұғалім.
+                        <small><b>Ахмет Байтұрсынов</b></small>
                         </blockquote>
-                        <p>
-                            Praesent ultricies ut ipsum non laoreet. Nunc ac <a href="#">ultricies</a> leo. Nulla ac ultrices arcu. Nullam adipiscing lacus in consectetur posuere. Nunc malesuada tellus turpis, ac pretium orci molestie vel.
-                            Morbi lacus massa, euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id sapien tempor molestie in nec massa.
-                            Fusce non ante sed lorem rutrum feugiat.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non laoreet dui. Morbi lacus massa, euismod ut turpis molestie, tristique sodales est. Integer sit amet mi id sapien tempor molestie in nec massa.
-                            Fusce non ante sed lorem rutrum feugiat. Vestibulum pellentesque, purus ut&nbsp;dignissim consectetur, nulla erat ultrices purus, ut&nbsp;consequat sem elit non sem.
-                        </p>
+                       <div class="space30"></div>
+                        <blockquote class="style1">
+                            <p>Мәдениетті адам болып тәрбиеленуге екі құдіретті күш әсер етеді — көркем өнер мен ғылым. Бұл екеуіне де кітап бетінен дидарласасың.
+                            <small><b>Максим Горький</b></small>
+                        </blockquote>
                     </article>
                 </div>
                 <div class="padding10">
