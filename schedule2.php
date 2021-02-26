@@ -1,44 +1,37 @@
-<?php
+<!--?php
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 include './head.php';
-?>
+?-->
 <div class="blog-content">
     <div class="container">
         <div class="row">
-            <p class="MsoNormal"><span lang="KZ" style="font-size:
+            <h6 style="margin-bottom:0cm;margin-bottom:.0001pt;
+                                                      text-align:center;line-height:normal"><span lang="KZ" style="font-size:
                                        9.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
-                                       KZ">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+                                       KZ">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br></span><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
                                                                                                                                                                                                         mso-ansi-language:KZ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; «<b>Келісілді» __________________&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;«Бекітілді» ______________<o:p></o:p></b></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-                                                                                                                                                                                                        normal;tab-stops:616.65pt"><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;«Бекітілді» ______________<br><o:p></o:p></b></span><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
                     mso-ansi-language:KZ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Кәсіподақ
                     төрайымы: Н.В.Жуйко&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мектеп директоры: П.Б.Кентаев&nbsp; <o:p></o:p></span></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                                                                                                                                                                     text-align:center;line-height:normal"><b><i><span lang="KZ" style="font-family:
-                          &quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;</span></i></b></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                          text-align:center;line-height:normal"><b><i><span lang="KZ" style="font-family:
-                          &quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;</span></i></b></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                          text-align:center;line-height:normal"><b><i><span lang="RU" style="font-family:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мектеп директоры: П.Б.Кентаев&nbsp;<br> </span><b><i><span lang="KZ" style="font-family:
+                          &quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;<br></span></i></b><b><i><span lang="KZ" style="font-family:
+                          &quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;<br></span></i></b><b><i><span lang="RU" style="font-family:
                           &quot;Times New Roman&quot;,&quot;serif&quot;">Р&nbsp;&nbsp;&nbsp; А&nbsp;&nbsp;&nbsp; С&nbsp;&nbsp;&nbsp;
                             П&nbsp;&nbsp;&nbsp; И&nbsp;&nbsp; С&nbsp;&nbsp;&nbsp;
                             А&nbsp;&nbsp;&nbsp; Н&nbsp;&nbsp;&nbsp; И&nbsp;&nbsp;&nbsp;
                             Е&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; У&nbsp;&nbsp;&nbsp; Р&nbsp;&nbsp;&nbsp;
                             О&nbsp;&nbsp;&nbsp; К&nbsp;&nbsp;&nbsp; О&nbsp;&nbsp;&nbsp;
-                            В<o:p></o:p></span></i></b></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                              text-align:center;line-height:normal"><b><span lang="RU" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+                            В<br></span></i></b><b><span lang="RU" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
                        mso-ansi-language:KZ">&nbsp;</span></b><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">5 -
                         классов&nbsp; в ІІІ четверти&nbsp; 2020 - 2021&nbsp;
-                        учебного года<o:p></o:p></span></b></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                                      text-align:center;line-height:normal"><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
-                       mso-ansi-language:KZ">&nbsp;</span></b></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                      text-align:center;line-height:normal"><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
-                       mso-ansi-language:KZ">І СМЕНА<o:p></o:p></span></b></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                                  text-align:center;line-height:normal"><b><span lang="KZ" style="font-size:9.0pt;
-                       font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;</span></b></p><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="margin-left: 19.6pt; border: none;">
+                        учебного года<br><o:p></o:p></span></b><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+                       mso-ansi-language:KZ">&nbsp;<br></span></b><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+                       mso-ansi-language:KZ">І СМЕНА<br></span></b><b><span lang="KZ" style="font-size:9.0pt;
+                       font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;</span></b><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="margin-left: 19.6pt; border: none;">
                 <tbody><tr>
                         <td width="57" valign="top" style="width:42.5pt;border:double windowtext 4.5pt;
                             mso-border-alt:thin-thick-small-gap windowtext 4.5pt;padding:0cm 5.4pt 0cm 5.4pt">
@@ -2045,40 +2038,7 @@ include './head.php';
                                     &quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">Исаева Э.Э.<o:p></o:p></span></p>
                         </td>
                     </tr>
-                </tbody></table><p class="MsoNormal"><span lang="KZ" style="font-size:
-                12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
-                                                           KZ">&nbsp;</span></p><p class="MsoNormal"><span lang="RU" style="font-size:
-                                                          12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Зам</span><span lang="KZ" style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
-                                                          mso-ansi-language:KZ">.директора по УВР:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    Жанибекова Д.А.<o:p></o:p></span></p><p class="MsoNormal"><span lang="RU" style="font-size:
-                                                                            9.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p><p class="MsoNormal"><span lang="KZ" style="font-size:
-                9.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
-                                                              KZ">&nbsp;</span></p><p class="MsoNormal"><span lang="KZ" style="font-size:
-                9.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
-                                                              KZ">&nbsp;</span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; «Келісілді» __________________&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;«Бекітілді»&nbsp;
-                        ______________<o:p></o:p></span></b></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-                                                       normal;tab-stops:616.65pt"><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
-                    mso-ansi-language:KZ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    Кәсіподақ төрайымы: Н.В.Жуйко&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мектеп
-                    директоры: П.Б.Кентаев&nbsp; <o:p></o:p></span></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                                                  text-align:center;line-height:normal"><b><i><span lang="KZ" style="font-family:
-                          &quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;</span></i></b></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                          text-align:center;line-height:normal"><b><i><span lang="KZ" style="font-size:
-                          12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;</span></i></b></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                          text-align:center;line-height:normal"><b><i><span lang="RU" style="font-family:
-                          &quot;Times New Roman&quot;,&quot;serif&quot;">Р&nbsp;&nbsp;&nbsp; А&nbsp;&nbsp;&nbsp; С&nbsp;&nbsp;&nbsp;
-                            П&nbsp;&nbsp;&nbsp; И&nbsp;&nbsp; С&nbsp;&nbsp;&nbsp;
-                            А&nbsp;&nbsp;&nbsp; Н&nbsp;&nbsp;&nbsp; И&nbsp;&nbsp;&nbsp;
-                            Е&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; У&nbsp;&nbsp;&nbsp; Р&nbsp;&nbsp;&nbsp;
-                            О&nbsp;&nbsp;&nbsp; К&nbsp;&nbsp;&nbsp; О&nbsp;&nbsp;&nbsp;
-                            В<o:p></o:p></span></i></b></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                              text-align:center;line-height:normal"><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
-                       mso-ansi-language:KZ">&nbsp;5 - классов&nbsp; в ІІІ четверти&nbsp; 2020 - 2021&nbsp;
-                        учебного года<o:p></o:p></span></b></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
-                                                      text-align:center;line-height:normal"><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
-                       mso-ansi-language:KZ">ІІ&nbsp; СМЕНА<o:p></o:p></span></b></p><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" align="left" style="border: none; margin-left: 6.75pt; margin-right: 6.75pt;">
+                </tbody></table><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" align="left" style="border: none; margin-left: 6.75pt; margin-right: 6.75pt;">
                 <tbody><tr>
                         <td width="59" valign="top" style="width:44.2pt;border:double windowtext 4.5pt;
                             mso-border-alt:thin-thick-small-gap windowtext 4.5pt;padding:0cm 5.4pt 0cm 5.4pt">
@@ -3835,69 +3795,45 @@ include './head.php';
                                     mso-ansi-language:KZ">Дубовик Н.Г.<o:p></o:p></span></p>
                         </td>
                     </tr>
-                </tbody></table><p class="MsoNormal"><span lang="KZ" style="font-size:
+                </tbody></table><span lang="KZ" style="font-size:
+                12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
+                                                           KZ">&nbsp;<br></span><span lang="RU" style="font-size:
+                                                          12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Зам</span><span lang="KZ" style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+                                                          mso-ansi-language:KZ">.директора по УВР:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Жанибекова Д.А.<br><o:p></o:p></span><span lang="RU" style="font-size:
+                                                                            9.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;<br></span><span lang="KZ" style="font-size:
+                9.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
+                                                              KZ">&nbsp;<br></span><span lang="KZ" style="font-size:
+                9.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
+                                                              KZ">&nbsp;<br></span><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; «Келісілді» __________________&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;«Бекітілді»&nbsp;
+                        ______________<br></span></b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+                    mso-ansi-language:KZ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Кәсіподақ төрайымы: Н.В.Жуйко&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мектеп
+                    директоры: П.Б.Кентаев&nbsp;<br> </span><b><i><span lang="KZ" style="font-family:
+                          &quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;<br></span></i></b><b><i><span lang="KZ" style="font-size:
+                          12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:KZ">&nbsp;<br></span></i></b><b><i><span lang="RU" style="font-family:
+                          &quot;Times New Roman&quot;,&quot;serif&quot;">Р&nbsp;&nbsp;&nbsp; А&nbsp;&nbsp;&nbsp; С&nbsp;&nbsp;&nbsp;
+                            П&nbsp;&nbsp;&nbsp; И&nbsp;&nbsp; С&nbsp;&nbsp;&nbsp;
+                            А&nbsp;&nbsp;&nbsp; Н&nbsp;&nbsp;&nbsp; И&nbsp;&nbsp;&nbsp;
+                            Е&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; У&nbsp;&nbsp;&nbsp; Р&nbsp;&nbsp;&nbsp;
+                            О&nbsp;&nbsp;&nbsp; К&nbsp;&nbsp;&nbsp; О&nbsp;&nbsp;&nbsp;
+                            В<br></span></i></b><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+                       mso-ansi-language:KZ">&nbsp;5 - классов&nbsp; в ІІІ четверти&nbsp; 2020 - 2021&nbsp;
+                        учебного года<br></span></b><b><span lang="KZ" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+                       mso-ansi-language:KZ">ІІ&nbsp; СМЕНА</span></b><span lang="KZ" style="font-size:
                 14.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
-                                                           KZ"><br clear="all">
-                </span><span lang="KZ" style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
-                             mso-ansi-language:KZ"><o:p></o:p></span></p><p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </p><p class="MsoNormal"><span lang="RU" style="font-size:
+                                                           KZ"><br clear="all"></span><p></p><span lang="RU" style="font-size:
                                            12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Зам</span><span lang="KZ" style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
                                            mso-ansi-language:KZ">.директора по УВР:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    Жанибекова Д.А.<o:p></o:p></span></p>
+                    Жанибекова Д.А.<o:p></o:p></span></h6><p class="MsoNormal"><span lang="KZ" style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+                             mso-ansi-language:KZ"><o:p></o:p></span></p>
         </div>
     </div>
 </div>
 
 
-<?php
+<!--?php
 include './footer.php';
-?>
+?-->
