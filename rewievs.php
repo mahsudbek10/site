@@ -100,10 +100,10 @@ include './head.php';
                     <article class="blogpost">
                         <h2 class="post-title"><a href="#">О нас</a></h2>
                         <div class="post-meta">
-                            <span><a href="#"><i class="fa fa-calendar"></i> 23 May</a></span>
-                            <span><a href="#"><i class="fa fa-user"></i> John Doe</a></span>
+                            <span><a href="#"><i class="fa fa-calendar"></i> 23 февраль</a></span>
+                            <span><a href="#"><i class="fa fa-user"></i> Кадиршиков Бобур</a></span>
                             <span><i class="fa fa-folder"></i><a href="">Vector</a>, <a href="#">Design</a></span>
-                            <span><a href="#"><i class="fa fa-comments"></i> 13 Comments</a></span>
+                            <span><a href="#"><i class="fa fa-comments"></i> 3 комментарии</a></span>
                         </div>
                         <div class="space30"></div>
                         <!-- Media Gallery -->
