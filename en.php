@@ -1,0 +1,21 @@
+<?php
+$lan['main'] = "Min"; 
+$lan['welcome'] = "Welcome!";
+$lan['about_school'] = "About";
+$lan['history_school'] = "History";
+$lan['doc'] = "Documents";
+$lan['sertificat'] = "Certificates";
+$lan['administration'] = "Administration";
+$lan['teachers'] = "Teachers";
+$lan['books'] = "Books";
+$lan['ebook'] = "E-Library";
+$lan['online_test'] = "Online Test";
+$lan['name_school'] = "General Secondary School<br>№12<br>M.Gorkiy";
+$lan['schedule'] = "Schedule";
+$lan['schedule1'] = "1st shift";
+$lan['schedule2'] = "2nd shift";
+$lan['schedule3'] = "Elementary";
+$lan['galery'] = "Gallery";
+$lan['galery_foto'] = "Photo";
+$lan['galery_video'] = "Video";
+$lan['structure'] = "Structure";

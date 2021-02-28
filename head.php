@@ -4,6 +4,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+if(isset($_GET['lan'])){
+    if($_GET['lan']=="ru"){
+        include './ru.php';
+    } else if($_GET['lan']=="kz"){
+        include './kaz.php';
+    } else if($_GET['lan']=="en"){
+        include './en.php';
+    } else {
+        header("Location: index.php");
+    } 
+} else {
+    include './kaz.php';
+}
+    
 ?>
 
 <!DOCTYPE html>
@@ -66,11 +80,11 @@
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
                                 <div class="tb_left pull-left">
-                                    <p>Добро пожаловать!</p>
+                                    <p><?= $lan['welcome'] ?></p>
                                 </div>
                                 <div class="tb_center pull-left">
                                     <ul>
-                                        <li><i class="fa fa-phone"></i> Тел: <a href="#">(8 7552) 571 907</a></li>
+                                        <li><i class="fa fa-phone"></i> Тел: <a href="#">(8 7252) 571 907</a></li>
                                         <li><i class="fa fa-envelope-o"></i> <a href="#">m.gorkogo-12@mail.ru</a></li>
                                     </ul>
                                 </div>
@@ -89,11 +103,34 @@
                                         </li>-->
                                         <li>
                                             <div class="tbr-info">
-                                                <span><img src="images/basic/RU.png" alt=""/>&nbsp;RUS <i class="fa fa-caret-down"></i></span>
+                                                <?php
+                                                $url = explode("?", $_SERVER["REQUEST_URI"]);
+//                                                echo $url[0];
+                                                if(!isset($_GET['lan'])) : ?>
+                                                <span><img src="images/basic/KZ.png" alt=""/>&nbsp;KZ <i class="fa fa-caret-down"></i></span>
                                                 <div class="tbr-inner">
-                                                    <a href="#"><img src="images/basic/flag1.png" alt=""/>EN</a>
-                                                    <a href="#"><img src="images/basic/KZ.png" alt=""/>KZ</a>
+                                                    <a href="<?= $url[0]."?lan=en" ?>"><img src="images/basic/flag1.png" alt=""/>EN</a>
+                                                    <a href="<?= $url[0]."?lan=ru" ?>"><img src="images/basic/RU.png" alt=""/>RU</a>
                                                 </div>
+                                                <?php elseif($_GET['lan']=="ru") : ?>
+                                                <span><img src="images/basic/RU.png" alt=""/>&nbsp;RU <i class="fa fa-caret-down"></i></span>
+                                                <div class="tbr-inner">
+                                                    <a href="<?= $url[0]."?lan=kz" ?>"><img src="images/basic/KZ.png" alt=""/>KZ</a>
+                                                    <a href="<?= $url[0]."?lan=en" ?>"><img src="images/basic/flag1.png" alt=""/>EN</a>
+                                                </div>
+                                                <?php elseif($_GET['lan']=="kz"): ?>
+                                                <span><img src="images/basic/KZ.png" alt=""/>&nbsp;KZ <i class="fa fa-caret-down"></i></span>
+                                                <div class="tbr-inner">
+                                                    <a href="<?= $url[0]."?lan=ru" ?>"><img src="images/basic/RU.png" alt=""/>RU</a>
+                                                    <a href="<?= $url[0]."?lan=en" ?>"><img src="images/basic/flag1.png" alt=""/>EN</a>
+                                                </div>
+                                                <?php elseif($_GET['lan']=="en"): ?>
+                                                <span><img src="images/basic/flag1.png" alt=""/>&nbsp;EN<i class="fa fa-caret-down"></i></span>
+                                                <div class="tbr-inner">
+                                                    <a href="<?= $url[0]."?lan=kz" ?>"><img src="images/basic/KZ.png" alt=""/>KZ</a>
+                                                    <a href="<?= $url[0]."?lan=ru" ?>"><img src="images/basic/RU.png" alt=""/>RU</a>
+                                                </div>
+                                                <?php endif; ?>
                                             </div>
                                         </li>
                                     </ul>
@@ -123,8 +160,8 @@
 
                             <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1" >
                                 <ul class="nav navbar-nav" >
-                                    <li class="dropdown">
-                                        <a href="./index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Главная</a>
+                                    <li >
+                                        <a href="./index.php" class="dropdown-toggle"><?= $lan['main'] ?></a>
 <!--                                        <ul class="dropdown-menu submenu" role="menu">
                                             <li><a href="./index.html">История университета</a>
                                             <li><a href="./index2.html">Миссия и стратегия</a>
@@ -137,46 +174,46 @@
                                         </ul>-->
                                     </li>
                                     <li class="dropdown">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Мектеп туралы</a>
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['about_school'] ?></a>
                                         <ul class="dropdown-menu submenu" role="menu">
-                                            <li><a href="./rewievs.php">История</a></li>
-                                            <li><a href="./">Личный документ</a></li>
-                                            <li><a href="./">Сертификат аккредитации</a></li>
-                                            <li><a href="./administration.php">Администрация</a></li>
-                                            <li><a href="./teachers.php">Учителя</a></li>
+                                            <li><a href="./rewievs.php"><?= $lan['history_school'] ?></a></li>
+                                            <li><a href="./"><?= $lan['doc'] ?></a></li>
+                                            <li><a href="./"><?= $lan['sertificat'] ?></a></li>
+                                            <li><a href="./administration.php"><?= $lan['administration'] ?></a></li>
+                                            <li><a href="./teachers.php"><?= $lan['teachers'] ?></a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown" >
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Оқулық</a>
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['books'] ?></a>
                                         <ul class="dropdown-menu submenu" role="menu">
-                                            <li><a href="./books.php">Электронная книга</a></li>
-                                            <li><a href="https://eduastana.epolice.kz/test/index">Online тестирование</a></li>
+                                            <li><a href="./books.php"><?= $lan['online_test'] ?></a></li>
+                                            <li><a href="https://eduastana.epolice.kz/test/index"><?= $lan['ebook'] ?></a></li>
                                         </ul>
                                     </li>
                                     <li style="margin-top: -15px">
-                                        <a class="navbar-brand text-center" href="./index.php"><h6><b>Общая средняя школа<br>№12<br>имени М.Горького</b></h6></a>
+                                        <a class="navbar-brand text-center" href="./index.php"><h6><b><?= $lan['name_school'] ?></b></h6></a>
 										<!-- <img src="images/en.png" class="img-responsive" style="max-height: 80px;min-height: 50px;" alt=""/>-->
                                     </li>
                                     <li class="dropdown" >
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Расписание</a>
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['schedule'] ?></a>
                                         <ul class="dropdown-menu submenu" role="menu">
-                                            <li><a href="./schedule1.php">Смена 1</a>
-                                            <li><a href="./schedule2.php">Смена 2</a>
-                                            <li><a href="./schedule3.php">Начальная смена</a>
+                                            <li><a href="./schedule1.php"><?= $lan['schedule1'] ?></a>
+                                            <li><a href="./schedule2.php"><?= $lan['schedule2'] ?></a>
+                                            <li><a href="./schedule3.php"><?= $lan['schedule3'] ?></a>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Галерея</a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['galery'] ?></a>
                                         <ul class="dropdown-menu submenu" role="menu">
-                                            <li><a href="#">Фото</a>
-                                            <li><a href="#">Видео</a>
+                                            <li><a href="#"><?= $lan['galery_foto'] ?></a>
+                                            <li><a href="#"><?= $lan['galery_video'] ?></a>
                                             <li><a href="#">3D</a>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Структура</a>
+                                        <a href="structure.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['structure'] ?></a>
                                         <ul class="dropdown-menu submenu" role="menu">                                         
-                                            <li><a href="structure.php">Ознакомиться</a></li>
+<!--                                            <li><a href="structure.php">Ознакомиться</a></li>-->
                                         </ul>
                                     </li>
                                     <li style="margin-top: 18px;">
