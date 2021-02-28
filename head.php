@@ -186,8 +186,8 @@ if(isset($_GET['lan'])){
                                     <li class="dropdown" >
                                         <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['books'] ?></a>
                                         <ul class="dropdown-menu submenu" role="menu">
-                                            <li><a href="./books.php"><?= $lan['online_test'] ?></a></li>
-                                            <li><a href="https://eduastana.epolice.kz/test/index"><?= $lan['ebook'] ?></a></li>
+                                            <li><a href="https://eduastana.epolice.kz/test/index"><?= $lan['online_test'] ?></a></li>
+                                            <li><a href="./elibrary.php"><?= $lan['ebook'] ?></a></li>
                                         </ul>
                                     </li>
                                     <li style="margin-top: -15px">

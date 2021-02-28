@@ -28,19 +28,19 @@
             <div class="col-md-3 col-sm-3 widget-footer">
                 <h5>тэги</h5>
                 <ul class="widget-tags">
-                    <li><a href="./categories-grid.html">ЕНТ</a></li>
-                    <li><a href="./categories-grid.html">Онлайн школа</a></li>
-                    <li><a href="./categories-grid.html">Электронная книга</a></li>
-                    <li><a href="./categories-grid.html">отзывы</a></li>
-                    <li><a href="./categories-grid.html">мон рк</a></li>
-                    <li><a href="./categories-grid.html">онлайн школа</a></li>
-                    <li><a href="./categories-grid.html">күнделік</a></li>
-                    <li><a href="./categories-grid.html">google</a></li>
-                    <li><a href="./categories-grid.html">yandex</a></li>
-                    <li><a href="./categories-grid.html">mail.ru</a></li>
-                    <li><a href="./categories-grid.html">youtube</a></li>
-                    <li><a href="./categories-grid.html">astana education center</a></li>
-                    <li><a href="./categories-grid.html">оnline тест для учителей</a></li>
+                    <li><a href="https://eduastana.epolice.kz/test/index">ЕНТ</a></li>
+                    <li><a href="https://onlinemektep.org/login">Онлайн школа</a></li>
+                    <li><a href="./elibrary">Электронная книга</a></li>
+                    <li><a href="./rewievs">отзывы</a></li>
+                    <li><a href="https://www.gov.kz/memleket/entities/edu">мон рк</a></li>
+                    <li><a href="https://onlinemektep.org/">онлайн школа</a></li>
+                    <li><a href="http://kundelik.kz/">күнделік</a></li>
+                    <li><a href="https://google.com">google</a></li>
+                    <li><a href="https://yandex.ru">yandex</a></li>
+                    <li><a href="https://mail.ru">mail.ru</a></li>
+                    <li><a href="https://youtube.com">youtube</a></li>
+                    <li><a href="https://eduastana.epolice.kz">astana education center</a></li>
+                    <li><a href="https://eduastana.epolice.kz/test/index">оnline тест для учителей</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
@@ -60,13 +60,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7 col-sm-7">
-<!--                <ul class="flinks">
-                    <li><a href="./index.html">Site Map</a></li>
-                    <li><a href="./index.html">Search Terms</a></li>
-                    <li><a href="./index.html">Advanced Search</a></li>
-                    <li><a href="./index.html">Orders and Returns</a></li>
-                    <li><a href="./index.html">Customer Service</a></li>
-                </ul>-->
                 <br>
                 <p>Copyright 2021 &middot; Designed & Developed by <a href="https://epolice.kz">Makhsud.</a> All rights reserved</p>
             </div>
@@ -78,14 +71,7 @@
 </div>	
 
 </div>
-
-
-
-
 <div id="backtotop"><i class="fa fa-chevron-up"></i></div>
-
-
-
 <!-- Javascript -->
 <script src="js/jquery.js"></script>
 
@@ -97,7 +83,6 @@
         addthis.init()
     }
 </script>
-
 <!-- ADDTHIS -->
 <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-557a95e76b3e51d9" async="async"></script>
 <script type="text/javascript">
@@ -106,7 +91,6 @@
         addthis.init()
     }
 </script>
-
 <script src="js/bootstrap.min.js"></script>        
 <script src="plugin/owl-carousel/owl.carousel.min.js"></script>
 <script src="js/bs-navbar.js"></script>
@@ -120,6 +104,5 @@
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script src="js/vendors/select/jquery.selectBoxIt.min.js"></script>
 <script src="js/main.js"></script>
-
 </body>
 </html>
