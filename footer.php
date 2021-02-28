@@ -10,10 +10,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 widget-footer col-sm-3">
-                <h5>№12 ОСШ им. М.Горького</h5>
-                <p>Лучшая школа в г.Шымкент далее краткое описание</p>
+                <h5><?= $lan['footer_aname'] ?></h5>
+                <p><?= $lan['footer_about'] ?></p>
                 <div class="clearfix"></div>
-                
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
                 <h5>Социальные сети</h5>

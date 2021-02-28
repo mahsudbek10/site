@@ -19,3 +19,10 @@ $lan['galery'] = "Gallery";
 $lan['galery_foto'] = "Photo";
 $lan['galery_video'] = "Video";
 $lan['structure'] = "Structure";
+$lan['footer_about'] = "Dear guests, "
+. "Our school is one of the best. "
+. "At the school, students study in Kazakh, Russian and Uzbek languages. "
+. "Graduates of our school study in the best universities in Russia, Uzbekistan and Kazakhstan. "
+. "Our graduates are confident that thanks to the knowledge gained at school, they will be able to become worthy specialists. "
+. "The most important thing is health and well-being before the meeting in the next academic year.";
+$lan['footer_aname'] = "№12 SECONDARY SCHOOL M.GORKY ";
