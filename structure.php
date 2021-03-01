@@ -5,8 +5,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+include './head.php';
 ?>
+<div class="blog-content">
+    <div class="container">
+        <div class="row">
 
-<form action="https://www.okulyk.kz/" method="get">
-    <input name="s" type="text">
-</form>
+            <img src="https://kazhimukansportmektebi.kz/images/structurerus.png" style="width: 100%;"/>
+</div>
+    </div>
+</div>
+
+
+<?php
+include './footer.php';
+?>     
