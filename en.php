@@ -1,7 +1,7 @@
 <?php
 
 
-
+$lan['search']="Search";
 $lan['subscribe_news']="Subscribe to our newsletter";
 $lan['tags']="Tags";
 $lan['newsletter']="NEWSLETTER";

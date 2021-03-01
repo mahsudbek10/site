@@ -227,7 +227,7 @@ if(isset($_GET['lan'])){
                                                 <i class="fa fa-search"></i>
                                             </span>
                                             <form class="searchtop">
-                                                <input type="text" placeholder="Search entire store here.">
+                                                <input type="text" placeholder="<?= $lan['search'] ?>">
                                             </form>
                                         </div>
                                     </li>

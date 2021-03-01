@@ -8,10 +8,10 @@
 
 ?>
 <?php
-$title = "<span class='text-success'>Astana </span> "
-        . "<span class='text-danger'>Education </span> "
-        . "<span class='text-primary'>Center </span> "
-        . "<span class='text-warning'>Тест </span>";
+$title = "<span class='text-success'>#12 </span> "
+        . "<span class='text-danger'>Школа </span> "
+        . "<span class='text-primary'>им. </span> "
+        . "<span class='text-warning'>М.Горького </span>";
 require_once '../db/db.php';
 ?>
 
@@ -68,26 +68,11 @@ require_once '../db/db.php';
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <h5><b>Добавить тестовых вопросов</b></h5>
+                            <h5><b>Добавить лента новостей</b></h5>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <label>Предмет</label>
-                                        <select id="s" class="form-control select2" style="width: 100%;">
-                                            <?php $result = R::getAll("SELECT * FROM test_subjects"); 
-                                            foreach($result as $item):?>
-                                            <option <?php//= ($item['id']==20 || $item['id']==21) ? 'disabled' : '' ?> value="<?= $item['id']; ?>"><?= $item['name'] ." ".$item['id'] ?></option>
-                                            <?php endforeach; ?>
-                                        </select>
-                                    </div>
-									<div class="form-group">
-                                        <label>Вариант для Оқу сауаттылығы/Грамотность чтения</label>
-                                        <div class="mb-3">
-                                            <input name="variant" id="v"/>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Вопрос</label>
+                                        <label>Тема</label>
                                         <div class="mb-3">
                                             <textarea id="q" class="textarea" placeholder="Place some text here"
                                                       style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
@@ -95,7 +80,7 @@ require_once '../db/db.php';
                                     </div>
                                     <!-- /.form-group -->
                                     <div class="form-group">
-                                        <label>Ответ А</label><div class="icheck-success d-inline">
+                                        <label>Мини описание</label><div class="icheck-success d-inline">
                                                                 <input type="checkbox" id="ta">
                                                                 <label for="ta">Правильный ответ
                                                                 </label>
@@ -106,7 +91,7 @@ require_once '../db/db.php';
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label>Ответ В</label><div class="icheck-success d-inline">
+                                        <label>Описание</label><div class="icheck-success d-inline">
                                                                 <input type="checkbox" id="tb">
                                                                 <label for="tb">Правильный ответ
                                                                 </label>
@@ -117,7 +102,7 @@ require_once '../db/db.php';
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label>Ответ С</label><div class="icheck-success d-inline">
+                                        <label>Текст</label><div class="icheck-success d-inline">
                                                                 <input type="checkbox" id="tc">
                                                                 <label for="tc">Правильный ответ
                                                                 </label>
