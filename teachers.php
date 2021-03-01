@@ -10,19 +10,19 @@ include './head.php';
 <div class="blog-content">
     <div class="container">
         <div class="row">
-<table border="0" cellpadding="0" cellspacing="0" width="636" style="width: 477pt;">
- <colgroup><col width="147" style="mso-width-source:userset;mso-width-alt:5376;width:110pt">
+<table border="0" cellpadding="0" cellspacing="0" width="auto" style="text-align: justify; width: auto;">
+<!-- <colgroup><col width="147" style="mso-width-source:userset;mso-width-alt:5376;width:auto">
  <col width="95" style="mso-width-source:userset;mso-width-alt:3474;width:71pt">
  <col width="144" style="mso-width-source:userset;mso-width-alt:5266;width:108pt">
  <col width="122" style="mso-width-source:userset;mso-width-alt:4461;width:92pt">
  <col width="64" span="2" style="width:48pt">
- </colgroup><tbody><tr height="20" style="height:15.0pt">
-  <td height="20" width="147" style="height:15.0pt;width:110pt"><b>Фамилия</b></td>
-  <td width="95" style="width:71pt"><b>Имя</b></td>
-  <td width="144" style="width:108pt"><b>Отчество</b></td>
-  <td width="122" style="width:92pt"><b>Сотовый телефон</b></td>
-  <td width="64" style="width:48pt"><b>Язык обучения</b></td>
-  <td width="64" style="width:48pt"><b>Уровень владения английским языком&nbsp;</b></td>
+ </colgroup><tbody><tr height="20" style="height:15.0pt">-->
+  <td height="20" width="auto" style="height:15.0pt;width:auto"><b>Фамилия</b></td>
+  <td width="auto" style="width:auto"><b>Имя</b></td>
+  <td width="auto" style="width:auto"><b>Отчество</b></td>
+  <td width="auto" style="width:auto"><b>Сотовый телефон</b></td>
+  <td width="auto" style="width:auto"><b>Язык обучения</b></td>
+  <td width="auto" style="width:auto"><b>Уровень владения английским языком&nbsp;</b></td>
  </tr>
  <tr height="20" style="height:15.0pt">
   <td height="20" style="height:15.0pt">ХАШИМОВ</td>
