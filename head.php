@@ -1,21 +1,26 @@
 <?php
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+if(session_status() != PHP_SESSION_ACTIVE) session_start ();
 if(isset($_GET['lan'])){
     if($_GET['lan']=="ru"){
+        $_SESSION['lan']="ru";
         include './ru.php';
     } else if($_GET['lan']=="kz"){
+        $_SESSION['lan']="kz";
         include './kaz.php';
     } else if($_GET['lan']=="en"){
+        $_SESSION['lan']="en";
         include './en.php';
     } else {
-        header("Location: index.php");
+        header("Location: index");
     } 
 } else {
-    include './kaz.php';
+    if(!isset($_SESSION['lan']))$_SESSION['lan'] = "kz";
+    
+    if(isset($_SESSION['lan'])){
+        if($_SESSION['lan']=="kz") include './kaz.php';
+        if($_SESSION['lan']=="ru") include './ru.php';
+        if($_SESSION['lan']=="en") include './en.php';
+    }
 }
     
 ?>
