@@ -107,8 +107,8 @@ include './head.php';
                         </div>
                         <div class="space30"></div>
                         <!-- Media Gallery -->
-                        <div class="post-media">
-                            <div class="blog-slider">
+                        <div class="post-media" style="height: 40%">
+                            <div class="blog-slider"  style="height: 40%">
                                 <div class="item">						
                                     <img src="images/teachers/2.JPG" class="img-responsive" alt="">
                                 </div>
@@ -129,6 +129,15 @@ include './head.php';
                                 </div>
                                 <div class="item">						
                                     <img src="images/teachers/10.JPG" class="img-responsive" alt="">
+                                </div>
+                                <div class="item">						
+                                    <img src="images/teachers/12.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="item">						
+                                    <img src="images/teachers/13.JPG" class="img-responsive" alt="">
+                                </div>
+                                <div class="item">						
+                                    <img src="images/teachers/14.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                         </div>

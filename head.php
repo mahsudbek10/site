@@ -161,7 +161,7 @@ if(isset($_GET['lan'])){
                             <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1" >
                                 <ul class="nav navbar-nav" >
                                     <li >
-                                        <a href="./index.php" class="dropdown-toggle"><?= $lan['main'] ?></a>
+                                        <a href="./index" class="dropdown-toggle"><?= $lan['main'] ?></a>
 <!--                                        <ul class="dropdown-menu submenu" role="menu">
                                             <li><a href="./index.html">История университета</a>
                                             <li><a href="./index2.html">Миссия и стратегия</a>
@@ -176,30 +176,30 @@ if(isset($_GET['lan'])){
                                     <li class="dropdown">
                                         <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['about_school'] ?></a>
                                         <ul class="dropdown-menu submenu" role="menu">
-                                            <li><a href="./rewievs.php"><?= $lan['history_school'] ?></a></li>
+                                            <li><a href="./rewievs"><?= $lan['history_school'] ?></a></li>
                                             <li><a href="./"><?= $lan['doc'] ?></a></li>
                                             <li><a href="./"><?= $lan['sertificat'] ?></a></li>
-                                            <li><a href="./administration.php"><?= $lan['administration'] ?></a></li>
-                                            <li><a href="./teachers.php"><?= $lan['teachers'] ?></a></li>
+                                            <li><a href="./administration"><?= $lan['administration'] ?></a></li>
+                                            <li><a href="./teachers"><?= $lan['teachers'] ?></a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown" >
                                         <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['books'] ?></a>
                                         <ul class="dropdown-menu submenu" role="menu">
                                             <li><a href="https://eduastana.epolice.kz/test/index"><?= $lan['online_test'] ?></a></li>
-                                            <li><a href="./elibrary.php"><?= $lan['ebook'] ?></a></li>
+                                            <li><a href="./elibrary"><?= $lan['ebook'] ?></a></li>
                                         </ul>
                                     </li>
                                     <li style="margin-top: -15px">
-                                        <a class="navbar-brand text-center" href="./index.php"><h6><b><?= $lan['name_school'] ?></b></h6></a>
+                                        <a class="navbar-brand text-center" href="./index"><h6><b><?= $lan['name_school'] ?></b></h6></a>
 										<!-- <img src="images/en.png" class="img-responsive" style="max-height: 80px;min-height: 50px;" alt=""/>-->
                                     </li>
                                     <li class="dropdown" >
                                         <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['schedule'] ?></a>
                                         <ul class="dropdown-menu submenu" role="menu">
-                                            <li><a href="./schedule1.php"><?= $lan['schedule1'] ?></a>
-                                            <li><a href="./schedule2.php"><?= $lan['schedule2'] ?></a>
-                                            <li><a href="./schedule3.php"><?= $lan['schedule3'] ?></a>
+                                            <li><a href="./schedule1"><?= $lan['schedule1'] ?></a>
+                                            <li><a href="./schedule2"><?= $lan['schedule2'] ?></a>
+                                            <li><a href="./schedule3"><?= $lan['schedule3'] ?></a>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
@@ -211,7 +211,7 @@ if(isset($_GET['lan'])){
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="structure.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['structure'] ?></a>
+                                        <a href="./structure" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?= $lan['structure'] ?></a>
                                         <ul class="dropdown-menu submenu" role="menu">                                         
 <!--                                            <li><a href="structure.php">Ознакомиться</a></li>-->
                                         </ul>
