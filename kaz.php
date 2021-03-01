@@ -1,4 +1,15 @@
 <?php
+
+
+$lan['subscribe_news']="Біздің жаңалықтарымызға жазылыңыз";
+$lan['tags']="Тэг";
+$lan['newsletter']="ЖАҢАЛЫҚТАР ЖІБЕРІЛІМІ";
+$lan['subscribe']="жазылу";
+$lan['ent']="ҰБТ";
+$lan['kundelik']="Күнделік";
+$lan['online_school']="Онлайн мектеп";
+$lan['social_network']="Әлеуметтік желілер";
+$lan['userful_links']="Пайдалы сілтемелер";
 $lan['main'] = "Басты"; 
 $lan['welcome'] = "Қош келдіңіз!";
 $lan['about_school'] = "Мектеп туралы";

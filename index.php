@@ -285,7 +285,7 @@ include './head.php';
     </div>
     <div class="col-sm-3">
         <div class="side-widget space50">
-            <h3><span>Полезные ссылки</span></h3>
+            <h3><span><?= $lan['userful_links'] ?></span></h3>
             <ul class="list-unstyled popular-post">
                 <li> <a href="https://kundelik.kz">Электрондық күнделік</a> <i class="icon-plus2"></i></li>
                 <li> <a href="https://bilimland.kz/ru">Online mektep</a> <i class="icon-plus2"></i></li>

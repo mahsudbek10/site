@@ -1,4 +1,15 @@
 <?php
+
+
+$lan['subscribe_news']="Подпишитесь на нашу рассылку новостей";
+$lan['tags']="Тэги";
+$lan['newsletter']="НОВОСТНАЯ РАССЫЛКА";
+$lan['subscribe']="Подписаться";
+$lan['ent']="ЕНТ";
+$lan['kundelik']="Дневник";
+$lan['online_school']="Онлайн школа";
+$lan['social_network']="Социальные сети";
+$lan['userful_links']="Полезные ссылки";
 $lan['main'] = "Главная"; 
 $lan['welcome'] = "Добро пожаловать!";
 $lan['about_school'] = "О школе";

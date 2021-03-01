@@ -15,7 +15,7 @@
                 <div class="clearfix"></div>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
-                <h5>Социальные сети</h5>
+                <h5><?= $lan['social_network'] ?></h5>
                 <ul class="f-social">
                     <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
                     <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
@@ -26,15 +26,14 @@
                 </ul>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
-                <h5>тэги</h5>
+                <h5><?= $lan['tags'] ?></h5>
                 <ul class="widget-tags">
-                    <li><a href="https://eduastana.epolice.kz/test/index">ЕНТ</a></li>
-                    <li><a href="https://onlinemektep.org/login">Онлайн школа</a></li>
-                    <li><a href="./elibrary">Электронная книга</a></li>
-                    <li><a href="./rewievs">отзывы</a></li>
+                    <li><a href="https://eduastana.epolice.kz/test/index"><?= $lan['ent'] ?></a></li>
+                    <li><a href="./elibrary"><?= $lan['ebook'] ?></a></li>
+                    <li><a href="./rewievs"><?= $lan['about_school'] ?></a></li>
                     <li><a href="https://www.gov.kz/memleket/entities/edu">мон рк</a></li>
-                    <li><a href="https://onlinemektep.org/">онлайн школа</a></li>
-                    <li><a href="http://kundelik.kz/">күнделік</a></li>
+                    <li><a href="https://onlinemektep.org/"><?= $lan['online_school'] ?></a></li>
+                    <li><a href="http://kundelik.kz/"><?= $lan['kundelik'] ?></a></li>
                     <li><a href="https://google.com">google</a></li>
                     <li><a href="https://yandex.ru">yandex</a></li>
                     <li><a href="https://mail.ru">mail.ru</a></li>
@@ -44,11 +43,11 @@
                 </ul>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
-                <h5>НОВОСТНАЯ РАССЫЛКА</h5>
-                <p>Подпишитесь на нашу рассылку новостей</p>
+                <h5><?= $lan['newsletter'] ?></h5>
+                <p><?= $lan['subscribe_news'] ?></p>
                 <form class="newsletter">
                     <input type="text" placeholder="Введите свой электронный адрес.">
-                    <button type="submit">Подписаться !</button>
+                    <button type="submit"><?= $lan['subscribe'] ?> !</button>
                 </form>
             </div>
         </div>

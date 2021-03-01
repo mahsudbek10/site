@@ -1,5 +1,17 @@
 <?php
-$lan['main'] = "Min"; 
+
+
+
+$lan['subscribe_news']="Subscribe to our newsletter";
+$lan['tags']="Tags";
+$lan['newsletter']="NEWSLETTER";
+$lan['subscribe']="subscribe";
+$lan['ent']="UNT";
+$lan['kundelik']="diary";
+$lan['online_school']="Online school";
+$lan['social_network']="Social networks";
+$lan['userful_links']="Userful Links";
+$lan['main'] = "Main"; 
 $lan['welcome'] = "Welcome!";
 $lan['about_school'] = "About";
 $lan['history_school'] = "History";
