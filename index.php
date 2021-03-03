@@ -12,7 +12,7 @@ include './head.php';
         <div class="pc-wrap">
             <div class="product-item">
                 <div class="item-thumb">
-                    <img src="http://content.podarki.ru/goods-images/96d16904-337e-4d9f-a931-cce81754d244.jpg" class="img-responsive" alt=""/>
+                    <img src="./images/teachers/d1.jpeg" class="img-responsive" alt=""/>
                     <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
                     <div class="product-overlay">
                         <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -416,35 +416,6 @@ include './head.php';
         </div>
     </div>
 </div>
-<!-- BLOCKS WRAP -->
-<!--             <div class="block-main container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4">
-                        <div class="block-content">
-                            <img src="images/blocks/1.jpg" class="img-responsive" alt=""/>
-                            <div class="bs-text-down text-center hvr-outline-out">
-                                Menswear<span>Intimates Fall/Winter 2015</span>				
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="block-content">
-                            <img src="images/blocks/2.jpg" class="img-responsive" alt=""/>
-                            <div class="bs-text-center text-center">
-                                Accesories<span>Get a new look with Smile Collection</span>				
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="block-content">
-                            <img src="images/blocks/3.jpg" class="img-responsive" alt=""/>
-                            <div class="bs-text-down text-center">
-                                Womenswear<span>Smile Collection new arrivals</span>				
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
 
 <!-- TESTIMONIAL -->
 <div class="testimonial parallax-bg2">
@@ -532,93 +503,101 @@ include './head.php';
             <div class="row">
                 <div class="col-md-5 col-sm-6">
                     <div class="owl-carousel sync1">
-                        <div class="item"> <img src="images/products/single/1-small.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/2-small.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/3-small.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/4-small.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/1-small.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/2-small.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/3-small.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/4-small.jpg" alt=""> </div>
+                        <div class="item"> <img src="images/teachers/d1.jpeg" alt=""> </div>
                     </div>
 
-                    <div class="owl-carousel sync2">
-                        <div class="item"> <img src="images/products/single/1.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/2.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/3.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/4.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/1.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/2.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/3.jpg" alt=""> </div>
-                        <div class="item"> <img src="images/products/single/4.jpg" alt=""> </div>
-                    </div>
                 </div>
                 <div class="col-md-7 col-sm-6">
                     <div class="product-single">
                         <div class="ps-header">
-                            <span class="badge offer">-50%</span>
-                            <h3>Product fashion</h3>
+<!--                            <span class="badge offer"><i class="fa fa-heart"></i></span>-->
+                            <h3>Кентаев Полат Бахитович</h3>
                             <div class="ratings-wrap">
-                                <div class="ratings">
-                                    <span class="act fa fa-star"></span>
-                                    <span class="act fa fa-star"></span>
-                                    <span class="act fa fa-star"></span>
-                                    <span class="act fa fa-star"></span>
-                                    <span class="act fa fa-star"></span>
-                                </div>
-                                <em>(6 reviews)</em>
+                                <!--                                <div class="ratings">
+                                                                    <span class="act fa fa-star"></span>
+                                                                    <span class="act fa fa-star"></span>
+                                                                    <span class="act fa fa-star"></span>
+                                                                    <span class="act fa fa-star"></span>
+                                                                    <span class="act fa fa-star"></span>
+                                                                </div>
+                                                                <em>(6 reviews)</em>-->
                             </div>
-                            <div class="ps-price"><span>$ 200.00</span> $ 99.00</div>
+                            <div><span>Директор </span> 8701 557 34 14</div>
                         </div>
 
-                        <div class="ps-stock">
-                            Available: <a href="#">In Stock</a>
-                        </div>
+                        <!--                        <div class="ps-stock">
+                                                    Available: <a href="#">In Stock</a>
+                                                </div>-->
                         <div class="sep"></div>
                         <div class="ps-color">
-                            <p>Color<span>*</span></p>
-                            <a class="black" href="#" onclick="return false;"></a>
-                            <a class="red" href="#" onclick="return false;"></a>
-                            <a class="yellow" href="#" onclick="return false;"></a>
-                            <a class="darkgrey" href="#" onclick="return false;"></a>
-                            <a class="litebrown" href="#" onclick="return false;"></a>
-                        </div>
-                        <div class="space10"></div>
-                        <div class="row select-wraps">
-                            <div class="col-md-7 col-sm-7">
-                                <p>Size<span>*</span></p>
-                                <select>
-                                    <option>XL</option>
-                                    <option>XXL</option>
-                                    <option>XXXL</option>
-                                </select>
+                            <p>Все выпускники школы дарят вам искреннюю благодарность за мудрость, чуткость и доброту. Желаем вам здоровья, благополучия, и конечно же, дальнейших успехов в работе!
+                                Мы помним и радостные моменты, и приступы неудержимого коллективного веселья, и школьного юмора.</p>
+                            <div class="padding10">
+                                <h4 class="uppercase space30">Comments&nbsp;&nbsp;<span>(3)</span></h4>
+                                <ul class="comment-list">
+                                    <li>
+                                        <a class="pull-left" href="#"><img class="comment-avatar" src="images/quote/1.png" alt="" height="50" width="50"></a>
+                                        <div class="comment-meta">
+                                            <a href="#">John Doe</a>
+                                            <span>
+                                                <em>Feb 17, 2015, at 11:34</em>
+                                                <a href="#" class="button btn-xs reply"><i class="fa fa-comment"></i>&nbsp;Reply</a>
+                                            </span>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sit amet urna nec tempor. Nullam pellentesque in orci in luctus. Sed convallis tempor tellus a faucibus. Suspendisse et quam eu velit commodo tempus.
+                                        </p>
+                                    </li>
+                                    <li class="comment-sub">
+                                        <a class="pull-left" href="#"><img class="comment-avatar" src="images/quote/2.png" alt="" height="50" width="50"></a>
+                                        <div class="comment-meta">
+                                            <a href="#">John Doe</a>
+                                            <span>
+                                                <em>March 08, 2015, at 03:34</em>
+                                                <a href="#" class="button btn-xs reply"><i class="fa fa-comment"></i>&nbsp;Reply</a>
+                                            </span>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sit amet urna nec tempor. Nullam pellentesque in orci in luctus. Sed convallis tempor tellus a faucibus. Suspendisse et quam eu velit commodo tempus.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a class="pull-left" href="#"><i class=""</a>
+                                        <!--<img class="comment-avatar" src="images/quote/1.png" alt="" height="50" width="50">-->
+                                        <div class="comment-meta">
+                                            <a href="#">John Doe</a>
+                                            <span>
+                                                <em>June 11, 2015, at 07:34</em>
+                                                <a href="#" class="button btn-xs reply"><i class="fa fa-comment"></i>&nbsp;Reply</a>
+                                            </span>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sit amet urna nec tempor. Nullam pellentesque in orci in luctus. Sed convallis tempor tellus a faucibus. Suspendisse et quam eu velit commodo tempus.
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="col-md-5 col-sm-5">
-                                <p>Quantity<span>*</span></p>
-                                <select>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                </select>
-                            </div>
                         </div>
-                        <div class="space20"></div>
-                        <div class="share">
-                            <span>
-                                <a href="#" class="fa fa-heart-o" onclick="return false;"></a>
-                                <a href="#" class="fa fa-signal" onclick="return false;"></a>
-                                <a href="#" class="fa fa-envelope-o" onclick="return false;"></a>
-                            </span>
-                            <div class="addthis_native_toolbox"></div>
-                        </div>
-                        <div class="space20"></div>
-                        <div class="sep"></div>
-                        <a class="btn-color" href="#">Add to Bag</a>
-                        <a class="btn-black" href="#">Go to Details</a>
                     </div>
                 </div>
+                <h4 class="uppercase space30">Задать вопрос</h4>
+                            <form method="post" action="#" id="form" role="form" class="form">
+                                <div class="row">
+                                    <div class="col-md-6 space20">
+                                        <input name="Имя" id="name" class="input-md form-control" placeholder="Имя *" maxlength="100" required="" type="text">
+                                    </div>
+                                    <div class="col-md-6 space20">
+                                        <input name="email" id="email" class="input-md form-control" placeholder="Email *" maxlength="100" required="" type="email">
+                                    </div>
+                                </div>
+                                <div class="space20">
+                                    <textarea name="text" id="text" class="input-md form-control" rows="6" placeholder="Вопрос" maxlength="400"></textarea>
+                                </div>
+                                <button type="submit" class="btn-black">
+                                    Отправить
+                                </button>
+                            </form>
+                            <div class="space60"></div>
             </div>
         </div>
     </div>
