@@ -21,15 +21,15 @@ include './head.php';
                                 <div class="product-item">
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
-                                        <img src="images/products/fashion/5.jpg" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <img src="./images/teachers/d1.jpeg" class="img-responsive" alt=""/>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
                                         </div>
                                     </div>
                                     <div class="product-info">
-                                        <h4 class="product-title"><a href="./single-product.html">Кентаев Полат Бахитович</a></h4>
+                                        <h4 class="product-title"><a href="./images/teachers/d1.jpeg">Кентаев Полат Бахитович</a></h4>
                                         <span class="product-price">8701 557 34 14<em>- Директор -</em></span>
                                     </div>
                                 </div>
@@ -38,8 +38,8 @@ include './head.php';
                                 <div class="product-item">
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
-                                        <img src="images/products/fashion/15.jpg" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <img src="./images/teachers/Ибраимова Каршыга Ауесбековна  .JPG" class="img-responsive" alt=""/>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -55,15 +55,15 @@ include './head.php';
                                 <div class="product-item">
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
-                                        <img src="images/products/accessories/8.jpg" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <img src="./images/teachers/Ермеков Малик Мухитдинович.jpeg" class="img-responsive" alt=""/>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
                                         </div>
                                     </div>
                                     <div class="product-info">
-                                        <h4 class="product-title"><a href="./single-product.html">Ермеков Малик Мухитдинович</a></h4>
+                                        <h4 class="product-title"><a href="./images/teachers/Ермеков Малик Мухитдинович.jpeg">Ермеков Малик Мухитдинович</a></h4>
                                         <span class="product-price">8707 969 69 26<em>- Оқу ісі жөніндегі орынбасары -</em></span>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ include './head.php';
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
                                         <img src="images/products/fashion/18.jpg" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -89,15 +89,15 @@ include './head.php';
                                 <div class="product-item">
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
-                                        <img src="images/products/fashion/10.jpg" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <img src="./images/teachers/Жанибекова Дамира Ауелбековна.jpeg" class="img-responsive" alt=""/>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
                                         </div>
                                     </div>
                                     <div class="product-info">
-                                        <h4 class="product-title"><a href="./single-product.html">Жанибекова Дамира Ауелбековна</a></h4>
+                                        <h4 class="product-title"><a href="./images/teachers/Жанибекова Дамира Ауелбековна.jpeg">Жанибекова Дамира Ауелбековна</a></h4>
                                         <span class="product-price">8707 430 3172<em>- 5-7 сыныптар бойынша Оқу ісі жөніндегі орынбасары -</em></span>
                                         
                                     </div>
@@ -108,7 +108,7 @@ include './head.php';
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
                                         <img src="./images/teachers/Юсупова Махсуда Турсункуловна .JPG" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -126,7 +126,7 @@ include './head.php';
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
                                         <img src="images/products/accessories/5.jpg" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -144,7 +144,7 @@ include './head.php';
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
                                         <img src="./images/teachers/Балғара Айгүл Нұрпейісқызы.JPG" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -161,33 +161,15 @@ include './head.php';
                                 <div class="product-item">
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
-                                        <img src="./images/teachers/Ибраимова Каршыга Ауесбековна  .JPG" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <img src="./images/teachers/Акпанова Альмира Тургунбаевна.jpeg" class="img-responsive" alt=""/>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
                                         </div>
                                     </div>
                                     <div class="product-info">
-                                        <h4 class="product-title"><a href="./images/teachers/Ибраимова Каршыга Ауесбековна  .JPG">Ибраимова Каршыга Ауесбековна</a></h4>
-                                        <span class="product-price">8775 66 51 11<em>- Оқу әдістемелік орынбасары -</em></span>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pc-wrap">
-                                <div class="product-item">
-                                    <div class="item-thumb">
-                                        <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
-                                        <img src="images/products/accessories/5.jpg" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
-                                        <div class="product-overlay">
-                                            <a href="#" class="compare fa fa-signal"></a>
-                                            <a href="#" class="likeitem fa fa-heart-o"></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-info">
-                                        <h4 class="product-title"><a href="./single-product.html">Акпанова Альмира Тургунбаевна</a></h4>
+                                        <h4 class="product-title"><a href="./images/teachers/Акпанова Альмира Тургунбаевна.jpeg">Акпанова Альмира Тургунбаевна</a></h4>
                                         <span class="product-price">8707 992 93 09<em>- Шаруашылық ісі жөніндегі орынбасары -</em></span>
                                         
                                     </div>
@@ -197,15 +179,15 @@ include './head.php';
                                 <div class="product-item">
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
-                                        <img src="images/products/accessories/5.jpg" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <img src="./images/teachers/Алайдарова Эльмира Бегалиновна.jpeg" class="img-responsive" alt=""/>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
                                         </div>
                                     </div>
                                     <div class="product-info">
-                                        <h4 class="product-title"><a href="./single-product.html">Алайдарова Эльмира Бегалиновна</a></h4>
+                                        <h4 class="product-title"><a href="./images/teachers/Алайдарова Эльмира Бегалиновна.jpeg">Алайдарова Эльмира Бегалиновна</a></h4>
                                         <span class="product-price">8775 707 78 77<em>- Бас бухгалтер -</em></span>
                                         
                                     </div>
@@ -216,7 +198,7 @@ include './head.php';
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
                                         <img src="./images/teachers/Туламетова Матлюба Акимжановна.JPG" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -234,7 +216,7 @@ include './head.php';
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
                                         <img src="./images/teachers/Иксанова Наиля Жиганшаевна .JPG" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -252,7 +234,7 @@ include './head.php';
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
                                         <img src="./images/teachers/Курбаналиева Нодира Хамидовна.JPG" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -269,15 +251,15 @@ include './head.php';
                                 <div class="product-item">
                                     <div class="item-thumb">
                                         <span class="badge new"><i class="fa fa-thumbs-up"></i></span>
-                                        <img src="images/products/accessories/5.jpg" class="img-responsive" alt=""/>
-                                        <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                        <img src="./images/teachers/Кадиршиков Бобур Даниярович.jpeg" class="img-responsive" alt=""/>
+                                        <!--<div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>-->
                                         <div class="product-overlay">
                                             <a href="#" class="compare fa fa-signal"></a>
                                             <a href="#" class="likeitem fa fa-heart-o"></a>
                                         </div>
                                     </div>
                                     <div class="product-info">
-                                        <h4 class="product-title"><a href="./single-product.html">Кадиршиков Бобур Даниярович</a></h4>
+                                        <h4 class="product-title"><a href="./images/teachers/Кадиршиков Бобур Даниярович.jpeg">Кадиршиков Бобур Даниярович</a></h4>
                                         <span class="product-price">8775 830 00 39<em>- Web сайт менеджері -</em></span>
                                         
                                     </div>

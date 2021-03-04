@@ -19,7 +19,7 @@ include './head.php';
                     </div>
                 </div>
                 <div class="product-info">
-                    <h4 class="product-title"><a href="./single-product.html">ФИО</a></h4>
+                    <h4 class="product-title"><a href="./single-product.html">Кентаев Полат Бахитович</a></h4>
                     <span class="product-price">Директор школы <em>- Блог -</em></span>
                     <!--                                <div class="item-colors">
                                                         <a href="#" class="brown"></a>
