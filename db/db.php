@@ -1,8 +1,8 @@
 <?php
     require 'rb-mysql.php';
     
-    R::setup( 'mysql:host=localhost;dbname=p-318571_','root', '' );
-//    R::setup( 'mysql:host=localhost;dbname=p-318571_','p-318571', 'z6tYmKBjPKo9!' );
+//    R::setup( 'mysql:host=localhost;dbname=p-318571_','root', '' );
+    R::setup( 'mysql:host=localhost;dbname=p-318571_','p-318571', 'z6tYmKBjPKo9!' );
 //    R::dispense("users");
 // p-318571 z6tYmKBjPKo9!
 //    $result = R::getAll("select * from users");
