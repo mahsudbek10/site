@@ -1,6 +1,9 @@
 <?php
-
-
+$lan['more']="More";
+$lan['school']="School";
+$lan['news']="News";
+$lan['all_news']="All news";
+$lan['ads']="Ads";
 $lan['search']="Search";
 $lan['subscribe_news']="Subscribe to our newsletter";
 $lan['tags']="Tags";

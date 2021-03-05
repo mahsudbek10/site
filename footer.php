@@ -10,12 +10,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 widget-footer col-sm-3">
-                <h5><?= $lan['footer_aname'] ?></h5>
+                <h5><?= $lan['footer_aname'] ?></h5><hr>
                 <p><?= $lan['footer_about'] ?></p>
                 <div class="clearfix"></div>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
-                <h5><?= $lan['social_network'] ?></h5>
+                <h5><?= $lan['social_network'] ?></h5><hr>
                 <ul class="f-social">
                     <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
                     <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
@@ -26,7 +26,7 @@
                 </ul>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
-                <h5><?= $lan['tags'] ?></h5>
+                <h5><?= $lan['tags'] ?></h5><hr>
                 <ul class="widget-tags">
                     <li><a href="https://eduastana.epolice.kz/test/index"><?= $lan['ent'] ?></a></li>
                     <li><a href="./elibrary"><?= $lan['ebook'] ?></a></li>
@@ -43,7 +43,7 @@
                 </ul>
             </div>
             <div class="col-md-3 col-sm-3 widget-footer">
-                <h5><?= $lan['newsletter'] ?></h5>
+                <h5><?= $lan['newsletter'] ?></h5><hr>
                 <p><?= $lan['subscribe_news'] ?></p>
                 <form class="newsletter">
                     <input type="email" id="emaill" placeholder="Введите свой электронный адрес.">
@@ -118,34 +118,32 @@
             showConfirmButton: false,
             timer: 3000
         });
-
-
         $('#subscribe').on('click', function () {
             console.log($('#emaill').val());
             $.post("subscribe",
-                    {
-                        email: $('#emaill').val()
+            {
+                email: $('#emaill').val()
 
-                    },
-                    function (data, status) {
-                        if (data['status'] === 'success') {
-                            console.log(data['status']);
-                            Toast.fire({
-                                icon: 'success',
-                                title: 'Вы подписались на новостную ленту 12mgorkiy.kz '+$('#email').val()
-                            });
-                        } else if (data['status'] === 'failure') {
-                            Toast.fire({
-                                icon: 'error',
-                                title: 'Что то пошло не так '+$('#email').val()
-                            });
-                        } else if (data['status'] === 'warning') {
-                            Toast.fire({
-                                icon: 'warning',
-                                title: 'Вы уже подписались на новостную ленту 12mgorkiy.kz '+$('#email').val()
-                            });
-                        }
+            },
+            function (data, status) {
+                if (data['status'] === 'success') {
+                    console.log(data['status']);
+                    Toast.fire({
+                        icon: 'success',
+                        title: 'Вы подписались на новостную ленту 12mgorkiy.kz '+$('#email').val()
                     });
+                } else if (data['status'] === 'failure') {
+                    Toast.fire({
+                        icon: 'error',
+                        title: 'Что то пошло не так '+$('#email').val()
+                    });
+                } else if (data['status'] === 'warning') {
+                    Toast.fire({
+                        icon: 'warning',
+                        title: 'Вы уже подписались на новостную ленту 12mgorkiy.kz '+$('#email').val()
+                    });
+                }
+            });
         });
     });
 </script>

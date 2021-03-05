@@ -17,7 +17,7 @@ if (isset($_GET['type'])) {
 <link href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css" />
 <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
-<a class="btn btn-info" href="addannoun?type=4">Добавить <?= $type ?></a><hr>
+<a class="btn btn-info" href="addannoun?type=<?= $_GET['type'] ?>">Добавить <?= $type ?></a><hr>
 <table border="1" class="dataTable" id="myTable">
     <thead>
         <tr>

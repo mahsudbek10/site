@@ -22,7 +22,7 @@ if(isset($_GET['lan'])){
         if($_SESSION['lan']=="en") include './en.php';
     }
 }
-    
+require_once './db/db.php';
 ?>
 
 <!DOCTYPE html>

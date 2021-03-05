@@ -28,14 +28,25 @@ include './head.php';
                                                     </div>-->
                 </div>
                 <div class="side-widget space50">
-                    <h3><span><?= "Мектеп"//$lan['userful_links']  ?></span></h3>
+                    <h3><span><?= $lan['school'] ?></span></h3>
                     <ul class="list-unstyled popular-post">
-                        <li> <a href="https://kundelik.kz">Қоңырау кестесі</a> <i class="icon-plus2"></i></li>
+                        <ul class="list-unstyled popular-post">
+                        <?php $school = R::getAll("SELECT * FROM pages WHERE what=5"); 
+                        foreach ($school as $sc): ?>
+                        <li> <a href="<?= "page?id=".$sc['id'] ?>">
+                            <?php 
+                            if($_SESSION['lan']=="kz") echo $sc['name_kz'];
+                            if($_SESSION['lan']=="ru") echo $sc['name_ru'];
+                            if($_SESSION['lan']=="en") echo $sc['name_en'];
+                            ?></a> <i class="icon-plus2"></i></li>
+                        <?php endforeach; ?>
+                        </ul>
+<!--                        <li> <a href="https://kundelik.kz">Қоңырау кестесі</a> <i class="icon-plus2"></i></li>
                         <li> <a href="https://bilimland.kz/ru">Мектеп үздіктері</a> <i class="icon-plus2"></i></li>
                         <li> <a href="https://www.gov.kz/memleket/entities/edu">Лицейге қабылдау ережесі</a> <i class="icon-plus2"></i></li>
                         <li> <a href="books.php">Электронная книга</a> <i class="icon-plus2"></i></li>
                         <li> <a href="https://eduastana.epolice.kz">Онлайн тестирование</a> <i class="icon-plus2"></i></li>
-                        <li> <a href="rewievs.php">Отзывы</a> <i class="icon-plus2"></i></li>
+                        <li> <a href="rewievs.php">Отзывы</a> <i class="icon-plus2"></i></li>-->
                     </ul>
                 </div>
                 <div class="side-widget space50">
@@ -353,10 +364,20 @@ include './head.php';
         </div>
         <hr>
         <h4 style="color: #2c396e;margin-top: -10px; margin-bottom: 15px;">
-                    НОВОСТИ
-                </h4>
+            <b><?= $lan['news'] ?></b>
+        </h4>
+        <?php $news = R::getAll("SELECT * FROM pages WHERE what=3 LIMIT 5");
+        foreach ($news as $new):
+        ?>
                 <article class="blogpost">
-                    <h2 class="post-title"><a href="#">Поздравление Президента с новым учебным годом</a></h2>
+                    <h4 class="post-title">
+                        <a href="<?= "page?id=".$new['id'] ?>">
+                            <?php 
+                            if($_SESSION['lan']=="kz") echo $new['name_kz'];
+                            if($_SESSION['lan']=="ru") echo $new['name_ru'];
+                            if($_SESSION['lan']=="en") echo $new['name_en'];
+                            ?>
+                        </a></h4>
                     <div class="post-meta">
                         <span><a href="#"><i class="fa fa-calendar"></i> <b style="color: #555;font-size: 15px;">3</b> Сентябрь</a></span>
                     </div>
@@ -364,55 +385,67 @@ include './head.php';
                     <!-- Media Gallery -->
                     <div class="post-media">
                         <div class="blog-slider">
-                            <div class="item">                      
-                                <img src="images/teachers/3.JPG" width="100%" height="auto" class="img-responsive" alt="">
+                            <div class="item"> 
+                                <?= $new['photo'] ?>
+                                <!--<img src="images/teachers/3.JPG" width="100%" height="auto" class="img-responsive" alt="">-->
                             </div>
                         </div>
                     </div>
                     <div class="post-excerpt ">
-                        <p class="sapce30">От всей души поздравляю Вас с Днем знаний и началом нового учебного года...</p>
+                        <p class="sapce30"></p>
                     </div>
-                    <a href="#" class="btn-black">Подробнее&nbsp;&nbsp;<i class="fa fa-angle-right"></i></a>
+                    <a href="<?= "page?id=".$new['id'] ?>" class="btn-black"><?= $lan['more'] ?>&nbsp;&nbsp;<i class="fa fa-angle-right"></i></a>
                 </article>
+        <?php endforeach; ?>
                 <div class="blog-sep"></div>
                 <!-- Pagination -->
                 <div class="page_nav">
-                    <a href="#" class="btn btn-black">  ВСЕ НОВОСТИ</a>
+                    <a href="#" class="btn btn-black">  <?= $lan['all_news'] ?></a>
                 </div>
     </div>
     <div class="col-sm-3">
         <div class="side-widget space50">
             <h3><span><?= $lan['userful_links'] ?></span></h3>
             <ul class="list-unstyled popular-post">
-                <li> <a href="https://kundelik.kz">Электрондық күнделік</a> <i class="icon-plus2"></i></li>
+                <?php $school = R::getAll("SELECT * FROM pages WHERE what=1 LIMIT 10"); 
+                        foreach ($school as $sc): ?>
+                        <li> <a href="<?= "page?id=".$sc['id'] ?>">
+                            <?php 
+                            if($_SESSION['lan']=="kz") echo $sc['name_kz'];
+                            if($_SESSION['lan']=="ru") echo $sc['name_ru'];
+                            if($_SESSION['lan']=="en") echo $sc['name_en'];
+                            ?></a> <i class="icon-plus2"></i></li>
+                        <?php endforeach; ?>
+<!--                <li> <a href="https://kundelik.kz">Электрондық күнделік</a> <i class="icon-plus2"></i></li>
                 <li> <a href="https://bilimland.kz/ru">Online mektep</a> <i class="icon-plus2"></i></li>
                 <li> <a href="https://www.gov.kz/memleket/entities/edu">МОН РК</a> <i class="icon-plus2"></i></li>
                 <li> <a href="books.php">Электронная книга</a> <i class="icon-plus2"></i></li>
                 <li> <a href="https://eduastana.epolice.kz">Онлайн тестирование</a> <i class="icon-plus2"></i></li>
-                <li> <a href="rewievs.php">Отзывы</a> <i class="icon-plus2"></i></li>
+                <li> <a href="rewievs.php">Отзывы</a> <i class="icon-plus2"></i></li>-->
             </ul>
         </div>
         <div class="side-widget space50">
-            <h3><span>Объявления</span></h3>
+            <h3><span><?= $lan['ads'] ?></span></h3>
             <ul class="list-unstyled popular-post">
+                <?php $ads = R::getAll("SELECT * FROM pages WHERE what = 4"); 
+                foreach ($ads as $item):
+                ?>
                 <li>
                     <div class="popular-desc">
-                        <h4> <a href="#" style="color: #7d1f37">2019-04-23</a></h4>
-                        <p >Национальный конкурс молодежных бизнес-проектов «StartupBolashak – Менің арманым»</p>
+                        <h4> 
+                            <a href="page?id=<?= $item['id'] ?>" style="color: #7d1f37">
+                        <?= date_format(date_create($item['date_register']), "d-m-Y") ?>
+                            </a></h4>
+                        <p>
+                            <?php
+                            if($_SESSION['lan']=="kz") echo $item['name_kz'];
+                            if($_SESSION['lan']=="ru") echo $item['name_ru'];
+                            if($_SESSION['lan']=="en") echo $item['name_en'];
+                            ?>
+                        </p>
                     </div>
                 </li>
-                <li>
-                    <div class="popular-desc">
-                        <h4> <a href="#" style="color: #7d1f37">2019-04-12</a></h4>
-                        <p >Ярмарка</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="popular-desc">
-                        <h4> <a href="#" style="color: #7d1f37">2019-03-04</a></h4>
-                        <p >Приглашаем принять участие в Республиканской студенческой предметной олимпиаде</p>
-                    </div>
-                </li>
+                <?php endforeach; ?>
             </ul>
         </div>
     </div>
