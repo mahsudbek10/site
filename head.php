@@ -50,7 +50,10 @@ if(isset($_GET['lan'])){
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,700,900' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
+        <!-- Toastr -->
+        <link rel="stylesheet" href="plugins/toastr/toastr.min.css">
+        <!-- SweetAlert2 -->
+        <link rel="stylesheet" href="plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
         <!-- CSS -->
         <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">

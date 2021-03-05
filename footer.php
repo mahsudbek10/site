@@ -46,8 +46,8 @@
                 <h5><?= $lan['newsletter'] ?></h5>
                 <p><?= $lan['subscribe_news'] ?></p>
                 <form class="newsletter">
-                    <input type="text" placeholder="Введите свой электронный адрес.">
-                    <button type="submit"><?= $lan['subscribe'] ?> !</button>
+                    <input type="email" id="emaill" placeholder="Введите свой электронный адрес.">
+                    <button type="button" id="subscribe"><?= $lan['subscribe'] ?> !</button>
                 </form>
             </div>
         </div>
@@ -90,8 +90,14 @@
         addthis.init()
     }
 </script>
+<!-- jQuery -->
+<!--<script src="plugins/jquery/jquery.min.js"></script>-->
 <script src="js/bootstrap.min.js"></script>        
 <script src="plugin/owl-carousel/owl.carousel.min.js"></script>
+<!-- SweetAlert2 -->
+<script src="plugins/sweetalert2/sweetalert2.min.js"></script>
+<!-- Toastr -->
+<script src="plugins/toastr/toastr.min.js"></script>
 <script src="js/bs-navbar.js"></script>
 <script src="js/vendors/isotope/isotope.pkgd.js"></script>
 <script src="js/vendors/slick/slick.min.js"></script>
@@ -103,5 +109,45 @@
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script src="js/vendors/select/jquery.selectBoxIt.min.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+    $(document).ready(function () {
+        const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000
+        });
+
+
+        $('#subscribe').on('click', function () {
+            console.log($('#emaill').val());
+            $.post("subscribe",
+                    {
+                        email: $('#emaill').val()
+
+                    },
+                    function (data, status) {
+                        if (data['status'] === 'success') {
+                            console.log(data['status']);
+                            Toast.fire({
+                                icon: 'success',
+                                title: 'Вы подписались на новостную ленту 12mgorkiy.kz '+$('#email').val()
+                            });
+                        } else if (data['status'] === 'failure') {
+                            Toast.fire({
+                                icon: 'error',
+                                title: 'Что то пошло не так '+$('#email').val()
+                            });
+                        } else if (data['status'] === 'warning') {
+                            Toast.fire({
+                                icon: 'warning',
+                                title: 'Вы уже подписались на новостную ленту 12mgorkiy.kz '+$('#email').val()
+                            });
+                        }
+                    });
+        });
+    });
+</script>
 </body>
 </html>
