@@ -379,7 +379,7 @@ include './head.php';
                             ?>
                         </a></h4>
                     <div class="post-meta">
-                        <span><a href="#"><i class="fa fa-calendar"></i> <b style="color: #555;font-size: 15px;">3</b> Сентябрь</a></span>
+                        <span><a href="#"><i class="fa fa-calendar"></i> <b style="color: #555;font-size: 15px;"></b><?= date_format(date_create($new['date_register']), "d-m-Y H:i") ?></a></span>
                     </div>
                     <div class="space30"></div>
                     <!-- Media Gallery -->
