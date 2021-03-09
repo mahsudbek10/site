@@ -31,7 +31,7 @@ include './head.php';
                     <h3><span><?= $lan['school'] ?></span></h3>
                     <ul class="list-unstyled popular-post">
                         <ul class="list-unstyled popular-post">
-                        <?php $school = R::getAll("SELECT * FROM pages WHERE what=5"); 
+                        <?php $school = R::getAll("SELECT * FROM pages WHERE what=2"); 
                         foreach ($school as $sc): ?>
                         <li> <a href="<?= "page?id=".$sc['id'] ?>">
                             <?php 
