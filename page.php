@@ -17,11 +17,11 @@ $result = R::getAll("SELECT * FROM pages WHERE id=?",[$_SESSION['page_id']]);
         <div class="pc-wrap">
             <div class="product-item">
                 <div class="side-widget space50">
-                    <h3><span><?= "Мектеп"//$lan['userful_links']  ?></span></h3>
+                    <h3><span><?= $lan['school'] ?></span></h3>
                     <ul class="list-unstyled popular-post">
-                        <?php $school = R::getAll("SELECT * FROM pages WHERE what=5"); 
+                        <?php $school = R::getAll("SELECT * FROM pages WHERE what=2"); 
                         foreach ($school as $sc): ?>
-                        <li> <a href="<?= "pages?id=".$sc['id'] ?>">
+                        <li> <a href="<?= "page?id=".$sc['id'] ?>">
                             <?php 
                             if($_SESSION['lan']=="kz") echo $sc['name_kz'];
                             if($_SESSION['lan']=="ru") echo $sc['name_ru'];
@@ -102,12 +102,21 @@ $result = R::getAll("SELECT * FROM pages WHERE id=?",[$_SESSION['page_id']]);
         <div class="side-widget space50">
             <h3><span><?= $lan['userful_links'] ?></span></h3>
             <ul class="list-unstyled popular-post">
-                <li> <a href="https://kundelik.kz">Электрондық күнделік</a> <i class="icon-plus2"></i></li>
+                <?php $school = R::getAll("SELECT * FROM pages WHERE what=1 LIMIT 10"); 
+                        foreach ($school as $sc): ?>
+                        <li> <a href="<?= "page?id=".$sc['id'] ?>">
+                            <?php 
+                            if($_SESSION['lan']=="kz") echo $sc['name_kz'];
+                            if($_SESSION['lan']=="ru") echo $sc['name_ru'];
+                            if($_SESSION['lan']=="en") echo $sc['name_en'];
+                            ?></a> <i class="icon-plus2"></i></li>
+                        <?php endforeach; ?>
+<!--                <li> <a href="https://kundelik.kz">Электрондық күнделік</a> <i class="icon-plus2"></i></li>
                 <li> <a href="https://bilimland.kz/ru">Online mektep</a> <i class="icon-plus2"></i></li>
                 <li> <a href="https://www.gov.kz/memleket/entities/edu">МОН РК</a> <i class="icon-plus2"></i></li>
                 <li> <a href="books.php">Электронная книга</a> <i class="icon-plus2"></i></li>
                 <li> <a href="https://eduastana.epolice.kz">Онлайн тестирование</a> <i class="icon-plus2"></i></li>
-                <li> <a href="rewievs.php">Отзывы</a> <i class="icon-plus2"></i></li>
+                <li> <a href="rewievs.php">Отзывы</a> <i class="icon-plus2"></i></li>-->
             </ul>
         </div>
         <div class="side-widget space50">
